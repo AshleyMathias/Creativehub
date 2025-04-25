@@ -1,83 +1,82 @@
-Creative Hub — A Collaborative Platform for Artists & Designers
-Creative Hub is a digital space built to empower creators, designers, and visual storytellers to upload, showcase, and collaborate on creative projects. Whether you're a digital artist, illustrator, or designer, Creative Hub gives you a platform to share your talent, discover others, and now — even accept bids on your artwork.
+# Creative Hub — A Platform for Artists & Designers
 
-Features
-Artist-focused modern UI, fully responsive across all screen sizes
+**Creative Hub** is a digital space built for artists, designers, and creative thinkers to **upload**, **discover**, **collaborate**, and even **sell** their artwork through a bidding system. Designed with a visually artistic UI and seamless user experience, Creative Hub brings the creative community together on a single platform.
 
-Upload and preview artwork with images, videos, tags, and categories
+---
 
-Like, comment, and collaborate with fellow creators
+## 🔹 Features
 
-Built-in bidding feature to monetize artwork (simulated with dummy data)
+- 🎨 Modern, clean, and center-aligned UI made for creative audiences  
+- 📁 Upload and preview images or videos with titles, tags, and categories  
+- 💬 Like, comment, and collaborate on others’ artworks  
+- 💸 Bidding system (frontend-simulated) to receive and place bids on artwork  
+- 🔍 AI-based discovery (simulated) for personalized artwork suggestions  
+- 🌗 Dark/Light mode toggle with preference saved in localStorage  
+- ⚡ Smooth animations with Framer Motion and Tailwind transitions  
+- 📱 Fully responsive and mobile-first layout  
 
-AI-based recommendations based on style and tags (mocked)
+---
 
-Dark/Light theme toggle with localStorage support
+## 🧰 Tech Stack
 
-Smooth animations using Framer Motion and Tailwind transitions
+- **React.js** (functional components with Hooks)  
+- **Tailwind CSS** with **Shadcn UI**  
+- **React Router v6**  
+- **Framer Motion** for animations  
+- **localStorage** for theme persistence  
 
-Tech Stack
-React.js with functional components and Hooks
+---
 
-Tailwind CSS with Shadcn UI for styling
+## 📁 Folder Structure
 
-React Router v6 for navigation
-
-Framer Motion for UI transitions
-
-localStorage for theme persistence
-
-Folder Structure
-css
-Copy
-Edit
+```
 src/
-│
-├── assets/         Images, icons, and other assets
-├── components/     Reusable UI components (Navbar, Footer, Cards, Forms)
-├── context/        Theme and state context providers
-├── hooks/          Custom React hooks (e.g. useLocalStorage)
-├── pages/          Core pages like Home, Dashboard, Gallery, etc.
-├── App.jsx         Main app with route setup
-└── main.jsx        Project entry point
-Pages
-Home: Hero section with CTA and scroll animations
+├── assets/           → Images, icons, and static assets
+├── components/       → Reusable UI components (Navbar, Cards, Forms, etc.)
+├── context/          → Theme context & state management
+├── hooks/            → Custom hooks (e.g., useLocalStorage)
+├── pages/            → All page components (Home, Gallery, Upload, etc.)
+├── App.jsx           → Main component with routing
+└── main.jsx          → Project entry point
+```
 
-Login / Register: Validated forms with show/hide password and role select
+---
 
-Dashboard: Creator overview with stats, avatar, and actions
+## 🗂 Pages Overview
 
-Upload Artwork: Form with live preview and success toast
+- **Home** – Hero section, features, CTA, theme toggle  
+- **Login / Register** – Email/password forms with validation & animations  
+- **Dashboard** – Overview stats, avatar, buttons for gallery, uploads, collabs  
+- **Upload Artwork** – Live preview upload form with tags & categories  
+- **Gallery** – Masonry-style layout with like/comment and filter options  
+- **AI Recommendations** – Simulated suggestions based on tags/styles  
+- **Bidding Page** – View and place bids on artworks (frontend only)  
+- **Profile Settings** – Update name, bio, profile picture with toast feedback  
 
-Gallery: Masonry-style responsive artwork grid with filters and previews
+---
 
-AI Recommendations: Suggested artists and artworks based on dummy tags
+## 🚀 Getting Started
 
-Bidding: Simulated bidding system with dummy users and artworks
-
-Profile Settings: Editable profile with image, bio, and save feedback
-
-Installation
-Clone the repo
+```bash
 git clone https://github.com/AshleyMathias/creative-hub.git
-
-Navigate to the project directory
 cd creative-hub
-
-Install dependencies
 npm install
-
-Start the development server
 npm run dev
+```
 
-Ensure you have Node.js and npm installed on your system.
+> Make sure Node.js and npm are installed before running the project.
 
-Contribution
-Contributions are welcome! Fork the repo, make your changes, and open a pull request. Make sure to follow clean coding standards and keep the design responsive and artistic.
+--- 
 
-Live Website
-Visit the live project at: https://creativehub02.netlify.app/
+## 🌐 Live Website
 
-License
+Check out the live project here:  
+[https://creativehub02.netlify.app/](https://creativehub02.netlify.app/)
+
+---
+
+## 📄 License
+
 This project is licensed under the MIT License.
 
+---
